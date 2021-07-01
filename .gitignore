@@ -1,0 +1,18 @@
+*.json
+*.pyc
+__pycache__/
+
+# 保密原因,你需要新建一个
+
+spider_config.py
+
+# 内容如下:
+# 
+# index_url = 主页链接
+# 
+# title_selector = 标题选择器
+# 
+# publish_selector = 发布日期选择器
+# 
+# views_selector = 浏览量选择器
+#
