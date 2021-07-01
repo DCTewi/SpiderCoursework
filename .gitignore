@@ -1,6 +1,7 @@
 *.json
 *.pyc
 __pycache__/
+output/
 
 # 保密原因,你需要新建一个
 

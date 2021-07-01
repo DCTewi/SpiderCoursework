@@ -5,6 +5,7 @@ import time
 import urls_manager
 import html_downloader
 import html_parser
+import html_outputer
 
 def main():
     print('启动成功, 准备抓取')
@@ -27,6 +28,7 @@ def main():
                     continue
 
                 urls_manager.save_news(news)
+                html_outputer.output_to_html(news)
                 print()
             else:
                 print("新闻已经抓取过, 跳过\n")
